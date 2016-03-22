@@ -1,0 +1,21 @@
+// ACCORDION STYLES
+
+.accordion__section {
+	border-bottom: 1px solid #c0c0c0;
+	padding: 6px;
+
+	&:first-of-type {
+		border-top: 1px solid #c0c0c0;
+	}
+}
+
+.accordion__title {
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.accordion__content {
+	display: none;
+}
